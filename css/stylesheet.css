@@ -6,7 +6,7 @@
 
 
 /* --- Dynamic classes for types ---*/
-    
+
 .water {
     background-color: rgb(101, 174, 216);
 }
@@ -27,62 +27,114 @@
     background-color: rgb(238, 212, 98);
 }
 
+.flying {
+    background-color:#82e0c5;
+}
+
+.fighting {
+    background-color: #d97a33;
+}
+
+.poison {
+    background-color: #dfb2f4;
+}
+
+.ground {
+    background-color: #bc827c;
+}
+
+.rock {
+    background-color: #e39c72;
+}
+
+.psychic {
+    background-color: #a84c64;
+}
+
+.bug {
+    background-color: #65743a;
+}
+
+.ghost {
+    background-color:#e0eaf5 ;
+}
+
+.steel {
+    background-color:#2e77ae ;
+}
+
+.dragon {
+    background-color:#eb5e55;
+
+}
+
+.dark {
+    background-color:#9d7e9d ;
+}
+
+.fairy {
+    background-color:#d3bafa;
+}
+
+
+
 
 /* ------------------------------------------
 *   Layouts
 -------------------------------------------*/
 
-*{
-font-size: 1rem;
+* {
+    font-size: 1rem;
 }
 
 body {
-display: flex;
-flex-direction: column;
-margin: 0;
-font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 
 /* Header */
 
 .top {
-min-height: 15vh;
-background-color: rgb(180, 45, 45);
+    min-height: 15vh;
+    background-color: rgb(180, 45, 45);
 }
 
 /* Center content */
 
 .center {
 
-display: flex;
-background-color: rgb(202, 179, 159);
-min-height: 70vh;
+    display: flex;
+    background-color: rgb(202, 179, 159);
+    min-height: 70vh;
 
 }
 
-.side{
-background-color: rgb(212, 212, 212);
-flex: 1;
+.side {
+    background-color: rgb(212, 212, 212);
+    flex: 1;
 }
 
-#app{
-background-color: rgb(255, 255, 255);
-flex: 9;
-padding: 1.5rem;
+#app {
+    background-color: rgb(255, 255, 255);
+    flex: 9;
+    padding: 1.5rem;
 }
 
 #create-form {
-text-align: center;
+    text-align: center;
 
 }
 
 h1 {
-text-align: center;
-color: whitesmoke;
-font-size: 3rem;
-margin: 0.5rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3rem;
+    margin: 0.5rem;
 }
 
-input, select {
-background-color: rgb(233, 205, 205);
+input,
+select {
+    background-color: rgb(233, 205, 205);
 }
